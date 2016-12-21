@@ -50,3 +50,8 @@ a=1, b=2, f(n) = 0
 o < nlog2(1) => Case 1 of Master's Method
 T(n)=O(nlogb(a)) = O(nlog2(1)) = O(log * n)
 Answer: O(log * n)
+
+*5 Choose the smallest correct upper bound on the solution to the following recurrence: T(1)=1 and T(n)≤T([n‾‾√])+1 for n>1. Here [x] denotes the "floor" function, which rounds down to the nearest integer. (Note that the Master Method does not apply.)
+
+Answer: O(loglogn)
+Just the smallest one.
