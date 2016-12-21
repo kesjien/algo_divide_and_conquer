@@ -31,3 +31,21 @@ f(n) > nlogb(a) => Case 1 of Master's Method
 f(n) = O(n2-e),
 T(n)=O(nlogb(a)) = O(nlog3(5))
 Answer: O(nlog3(5))
+*4. Consider the following pseudocode for calculating ab (where a and b are positive integers)
+FastPower(a,b) :
+  if b = 1
+    return a
+  else
+    c := a*a
+    ans := FastPower(c,[b/2])
+  if b is odd
+    return a*ans
+  else return ans
+end
+
+
+T(n)=T([n/2])+O(1)T(n)=T([n/2])+O(1)
+a=1, b=2, f(n) = 0
+o < nlog2(1) => Case 1 of Master's Method
+T(n)=O(nlogb(a)) = O(nlog2(1)) = O(log * n)
+Answer: O(log * n)
